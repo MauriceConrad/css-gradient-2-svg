@@ -12,7 +12,7 @@ import cssGradient2SVG from 'gradient2svg'
 // Linear gradient
 const svgGradient1 = cssGradient2SVG('linear-gradient(55deg, #f00, #000)');
 /*
-  <linearGradient data-gradient-angle="55" x1="9.04%" y1="78.68%" x2="90.96%" y2="21.32%"
+  <linearGradient data-gradient-angle="55" x1="9.04%" y1="78.68%" x2="90.96%" y2="21.32%">
     <stop offset="0%" style="stop-color: #f00;" /
     <stop offset="100%" style="stop-color: #000;" />
   </linearGradient>
