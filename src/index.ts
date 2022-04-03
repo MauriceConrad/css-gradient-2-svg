@@ -106,7 +106,7 @@ function parseRadialGradient({ orientation, colorStops }: IRadialGradient, bbox:
 
 }
 
-export default function cssGradient2SVG(cssGradient: string) {
+export default function cssGradient2SVG(cssGradient: string): string | undefined {
   try {
     const gradient = parse(cssGradient)[0];
     if (gradient.type === 'linear-gradient') {
@@ -117,6 +117,6 @@ export default function cssGradient2SVG(cssGradient: string) {
     }
   }
   catch (err) {
-    return null;
+    return
   }
 }
