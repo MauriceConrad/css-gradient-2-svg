@@ -22,9 +22,9 @@ const svgGradient1 = cssGradient2SVG('linear-gradient(55deg, #f00, #000)');
 const svgGradient2 = cssGradient2SVG('radial-gradient(circle at 10% center, #f00 10%, #00f 95%)');
 
 /*
-  <radialGradient cx=\"0.1\" cy=\"0.5\" r=\"50%\">
-    <stop offset=\"10%\" style=\"stop-color: #f00;\" />
-    <stop offset=\"95%\" style=\"stop-color: #00f;\" />
+  <radialGradient cx="0.1" cy="0.5" r="50%">
+    <stop offset="10%" style="stop-color: #f00;" />
+    <stop offset="95%" style="stop-color: #00f;" />
   </linearGradient>
 */
 ```
