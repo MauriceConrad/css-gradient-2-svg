@@ -1,6 +1,6 @@
 {
   "name": "gradient2svg",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
@@ -21,7 +21,7 @@
     }
   },
   "types": "./lib/esm/types/index.d.ts",
-  "description": "Parse & stringify css expressions",
+  "description": "Convert CSS gradients to a SVG gradients",
   "scripts": {
     "test": "jest",
     "lint": "eslint . --ext .ts",
