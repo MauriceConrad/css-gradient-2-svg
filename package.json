@@ -1,6 +1,6 @@
 {
   "name": "gradient2svg",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
@@ -53,12 +53,9 @@
   },
   "keywords": [
     "css",
-    "expression",
-    "value",
-    "function",
-    "method",
-    "parse",
-    "stringify"
+    "gradient",
+    "svg",
+    "convert"
   ],
   "devDependencies": {
     "@babel/types": "^7.17.0",
