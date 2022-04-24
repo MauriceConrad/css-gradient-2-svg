@@ -102,7 +102,7 @@ function parseRadialGradient({ orientation, colorStops }: IRadialGradient, bbox:
   if (!pos || !pos.x || !pos.y) return;
   
 
-  return `<radialGradient cx="${ pos.x }" cy="${ pos.y }" r="50%">${ createColorStops(colorStops).join('') }</linearGradient>`;
+  return `<radialGradient cx="${ pos.x }" cy="${ pos.y }" r="50%">${ createColorStops(colorStops).join('') }</radialGradient>`;
 
 }
 
